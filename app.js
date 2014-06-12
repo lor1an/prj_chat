@@ -82,8 +82,10 @@ var server = app.server = http.createServer(app);
 
 socketServer.installHandlers(server, {prefix:'/socket'});
 
-server.listen(config.get('port'), function() {
-  log.info("Express server listening on port " + config.get('port'));
-});
+server.listen(config.get('port2'), function() {
+  log.info("Express server listening on port " + config.get('port2'));
+adfklgdfg
+    dlfksdlsdlfk
 
 module.exports = app;
+
